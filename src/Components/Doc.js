@@ -8,19 +8,13 @@ import useScrollToTop from '../hooks/useScrollToTop';
 const SUB_ARTICLE_1_TEXT = (
     <div>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas fa
-            cere velit quaerat, iusto suscipit ea fuga
-            accusamus in est laboriosam aspersors dolores.
+            Productivity tools can streamline your workflow, helping you to manage tasks efficiently. With intuitive interfaces and easy-to-use features, these tools are designed to enhance your productivity.
         </p>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas fa
-            cere velit quaerat, iusto suscipit ea fuga
-            accusamus in est laboriosam aspersors dolores.
+            Imagine having all your tasks organized in one place. No more scattered notes or forgotten deadlines. Productivity tools provide the structure you need to keep track of everything, from daily to-dos to long-term projects.
         </p>
         <div className='catImage'>
-            <img src={img} alt='' />
+            <img src={img} alt='Productivity illustration' />
         </div>
     </div>
 );
@@ -28,10 +22,7 @@ const SUB_ARTICLE_1_TEXT = (
 const SUB_ARTICLE_2_TEXT = (
     <div>
         <p className='line-height'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facere
-            velit quaerat, iusto suscipit ea fuga accusamus in
-            est laboriosam asperiores dolores lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facere
-            velit quaerat, iusto
+            A sleek and user-friendly interface can make all the difference. Productivity tools with a cool UI and UX not only look good but also make it easy to navigate and manage your tasks. These tools are designed to minimize friction and maximize efficiency, so you can focus on what matters most.
         </p>
     </div>
 );
@@ -39,8 +30,7 @@ const SUB_ARTICLE_2_TEXT = (
 const SUB_ARTICLE_3_TEXT = (
     <div>
         <p>
-            lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facere
-            velit quaerat, iusto
+            Join our Discord community to connect with other productivity enthusiasts. Whether you need help, want to share your experiences, or just chat with like-minded individuals, our Discord server is the place to be. Engage in discussions, ask questions, and get support from our team and community members.
         </p>
     </div>
 );
@@ -48,40 +38,59 @@ const SUB_ARTICLE_3_TEXT = (
 const SUB_ARTICLE_4_TEXT = (
     <div>
         <p>
-            lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facere
-            velit quaerat, iusto
+            Have questions or need support? Reach out to us via email. Our team is here to assist you with any inquiries you may have. Whether it's troubleshooting an issue or providing feedback, we're just an email away.
         </p>
         <p>
-            lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facere
-            velit quaerat, iusto
-        </p>
-        <p>
-            lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facere
-            velit quaerat, iusto
+            We value your input and strive to respond as quickly as possible. Your feedback helps us improve and offer better services.
         </p>
     </div>
 );
+
+
+const SUB_ARTICLE_5_TEXT = (
+    <div>
+        <div>
+            <p>
+                Adding a list is straightforward. Simply click the "Add List" button, give your list a name, and start organizing your tasks. Whether you're managing personal errands or team projects, lists help you keep everything in order.
+            </p>
+        </div>
+    </div>
+);
+
+const SUB_ARTICLE_6_TEXT = (
+    <div>
+        <p>
+            Adding tasks to your lists is just as easy. Click "Add Task," enter the details of your task, and assign it to the appropriate list. You can set due dates, priorities, and reminders to ensure you stay on top of your work.
+        </p>
+        <p>
+            With these tools, you can break down large projects into manageable tasks, track progress, and achieve your goals more efficiently.
+        </p>
+    </div>
+);
+
+
+
 // end sub-article paragraphs
 
 // start Toggles info
 const toggle_1 = {
     title: 'Where is my data saved?',
-    body: `lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facerevelit quaerat, iusto`
+    body: `Your data is securely saved in the cloud, ensuring that you can access it from any device. We prioritize your privacy and use state-of-the-art encryption to keep your information safe.`
 };
 
 const toggle_2 = {
-    title: 'What is the different between the paid and free plan?',
-    body: `lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facerevelit quaerat, iusto lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facerevelit quaerat, i`
+    title: 'What is the difference between the paid and free plan?',
+    body: `The free plan offers basic features to get you started, while the paid plan provides advanced functionalities such as project sharing, priority support, and enhanced security features. Choose the plan that best fits your needs.`
 };
 
 const toggle_3 = {
-    title: 'Can I cancel my subscribe?',
-    body: `lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facerevelit quaerat, iusto`
+    title: 'Can I cancel my subscription?',
+    body: `Yes, you can cancel your subscription at any time. Simply go to your account settings and follow the cancellation instructions. Your access to premium features will continue until the end of your billing cycle.`
 };
 
 const toggle_4 = {
-    title: 'loading problems',
-    body: `lor sit amet consectetur adipisicing elit. Cum ex esse quisquam sequi magnam nesciunt mollitia voluptas facerevelit quaerat, iusto`
+    title: 'Having loading problems?',
+    body: `If you're experiencing loading issues, try refreshing the page or clearing your browser cache. If the problem persists, contact our support team for assistance. We're here to help ensure you have a smooth experience.`
 };
 
 // end Toggles text
@@ -146,11 +155,11 @@ const Doc = () => {
                 <Article Ref={sections[1].how_to_use_ref} id={sections[1].id} value={sections[1].value} index={1}>
                     <div className='sub-article a2'>
                         <p className='sub-article-header'>Add List</p>
-                        {SUB_ARTICLE_3_TEXT}
+                        {SUB_ARTICLE_5_TEXT}
                     </div>
                     <div className='sub-article a2'>
                         <p className='sub-article-header'>Add Task</p>
-                        {SUB_ARTICLE_4_TEXT}
+                        {SUB_ARTICLE_6_TEXT}
                     </div>
                 </Article>
                 {/* Article-3 */}
@@ -173,10 +182,7 @@ const Doc = () => {
                         {SUB_ARTICLE_4_TEXT}
                     </div>
                 </Article>
-
-
             </article>
-
         </div>
     );
 };
