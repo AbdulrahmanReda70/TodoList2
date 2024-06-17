@@ -146,7 +146,7 @@ function Todo() {
             )}
 
             <div onClick={() => setActiveNav(p => !p)} style={{ padding: '20px 0 0 20px', position: 'absolute', zIndex: '2' }}>
-                <GoSidebarCollapse style={{ fontSize: '27px', cursor: 'pointer' }} />
+                <GoSidebarCollapse style={{ fontSize: '32px', cursor: 'pointer' }} />
             </div>
 
             <nav className={activeNav ? 'todo-nav-active todo-nav' : 'todo-nav-notActive todo-nav'}>
@@ -157,7 +157,7 @@ function Todo() {
                         </Link>
                     </div>
                     <div onClick={() => setActiveNav(p => !p)}>
-                        <GoSidebarCollapse style={{ fontSize: '27px', cursor: 'pointer' }} />
+                        <GoSidebarCollapse style={{ fontSize: '32px', cursor: 'pointer' }} />
                     </div>
 
                 </div>
