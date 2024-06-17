@@ -71,7 +71,7 @@ function App() {
         <Route path="signUp" element={<SignUp />} />
         <Route path="confirm" element={<Confirm />} />
         <Route path="pricing" element={<Pricing />} />
-        <Route path="*" element={<Link to={'/'}> <h1 className='container'>Home Page</h1></Link>} />
+        <Route path="*" element={<ErrorPage />} />
       </Route>
       {/* Todo list App */}
       <Route path="products/todo" element={<Suspense fallback={<h1 className='loading'>Loading...</h1>}><Todo /></Suspense>} errorElement={<ErrorPage />} loader={todoListLoader} >
