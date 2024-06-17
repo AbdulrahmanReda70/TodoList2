@@ -84,9 +84,11 @@
 .tasks-section .container {
 }
 
+/* updated */
+
 .tasks-section {
   display: flex;
-  height: 73vh;
+  max-height: 78vh;
   overflow: auto;
   align-items: center;
   flex-direction: column;
@@ -211,7 +213,7 @@
 
 .addTaskContainer {
   position: absolute;
-  bottom: 46px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
@@ -219,7 +221,7 @@
 
 .addTask {
   position: absolute;
-  bottom: 20px;
+  bottom: 45px;
   width: 100%;
 }
 
@@ -234,7 +236,7 @@
   padding: 0 6px 0 50px;
 }
 .tasks-section {
-  min-height: 78vh;
+  min-height: 74vh;
 }
 
 .addTask-text {
