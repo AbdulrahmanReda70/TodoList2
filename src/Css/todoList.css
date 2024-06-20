@@ -88,7 +88,7 @@
 
 .tasks-section {
   display: flex;
-  max-height: 78vh;
+  height: 74vh;
   overflow: auto;
   align-items: center;
   flex-direction: column;
