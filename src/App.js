@@ -75,8 +75,8 @@ function App() {
       </Route>
       {/* Todo list App */}
       <Route path="products/todo" element={<Suspense fallback={<h1 className='loading'>Loading...</h1>}><Todo /></Suspense>} errorElement={<ErrorPage />} loader={todoListLoader} >
-        <Route path=':listId' element={<List />} />
-        <Route path="*" element={<ErrorPage />} />
+        <Route path=':listId' element={<List />} loader={todoListLoader} />
+        {/* <Route path="*" element={<ErrorPage />} /> */}
       </Route>
       {/*  */}
       <Route path="products/cardTodo" element={<Suspense fallback={<h1 className='loading'>Loading...</h1>}><CardTodo /></Suspense>} loader={cardLoader} />
