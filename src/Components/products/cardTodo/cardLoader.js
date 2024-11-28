@@ -3,7 +3,7 @@ import { auth } from "../../auth";
 
 export function cardLoader({ request }) {
     const project_role = 2;
-    const user = JSON.parse(localStorage.getItem('sb-ciniyknfxnlgaxhyuako-auth-token')).user;
+    const user = JSON.parse(localStorage.getItem('sb-uprfurpajbpzdywrkheh-auth-token')).user;
     const user_role = user?.user_metadata.role;
     auth(request);
     console.log(user_role, 'From calender');
