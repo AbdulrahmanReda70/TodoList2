@@ -3,7 +3,7 @@ import { auth } from "../../auth";
 
 export function todoListLoader({ request }) {
     const project_role = 1;
-    const user = JSON.parse(localStorage.getItem('sb-ciniyknfxnlgaxhyuako-auth-token')).user;
+    const user = JSON.parse(localStorage.getItem('sb-uprfurpajbpzdywrkheh-auth-token')).user;
     const user_role = user?.user_metadata.role;
     auth(request);
     console.log(user_role, 'From calender');
