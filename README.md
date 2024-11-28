@@ -1,3 +1,7 @@
+# My Todo App
+
+Check out the live project here: [Live Todo App](https://todoapp-for-all.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
