@@ -6,7 +6,7 @@ const ProtectedRoutes = ({ allowedRoles }) => {
     const user_role = userInfo?.user_metadata.role === undefined ? 1 : userInfo?.user_metadata.role;
     const location = useLocation().pathname;
     console.log(user_role, ' Protected');
-    const check_if_token = localStorage.getItem('sb-ciniyknfxnlgaxhyuako-auth-token');
+    const check_if_token = localStorage.getItem('sb-uprfurpajbpzdywrkheh-auth-token');
     function checkValidation() {
         if (check_if_token) {
             if (user_role >= allowedRoles) {
