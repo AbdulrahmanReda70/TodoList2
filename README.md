@@ -1,74 +1,60 @@
-# My Todo App
+# 🚀 **Productivity Application with Advanced UX and Modern React Features**
 
-Check out the live project here: [Live Todo App](https://todoapp-for-all.netlify.app/)
+I'm thrilled to share my latest project, a **Productivity Application** built with **React**. This app showcases several advanced features designed to improve **user experience (UX)** and performance.
 
-# Getting Started with Create React App
+### 🌐 **Project Link:**  
+[Productivity App Website](https://todo-for-all.netlify.app/)  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### **Key Features & Innovations**
 
-In the project directory, you can run:
+1. **Code Splitting**  
+   - Applied **code splitting** to optimize the application's performance.  
+   - **Benefit**: Improved load times by loading only the necessary code, resulting in a smoother user experience.
 
-### `npm start`
+2. **User Experience Enhancements**  
+   - **Redirection**: Smart redirects post-login to ensure users retain their actions without returning to the home page.  
+   - **Search Params**: Used URL search parameters to display helpful messages after redirects.  
+   - **Custom Error Pages**: Developed custom error pages for better error handling and feedback.  
+   - **Popup Handling**: Ensured popups close when users click anywhere on the page, enhancing interaction.  
+   - **Todo List App Enhancements**: Improved UX with automatic redirection to created lists, input clearing after task entry, and added keyboard shortcuts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Authentication with Supabase**  
+   - **OAuth Integration**: Implemented **OAuth** for secure authentication.  
+   - **Comprehensive Auth**: Integrated **sign-in and sign-up** functionality with Supabase.  
+   - **Form Validation**: Used **React Hook Form & Zod** for professional, robust form validation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Protected Routes and User Roles**  
+   - Applied **protected routes** and **user roles** with **React Router v6**.  
+   - Ensured proper redirection based on user roles for secure access control.
 
-### `npm test`
+5. **React Router v6 Features**  
+   - Implemented **createBrowserRouter**, **loaders**, and **error handling** (using **ErrorElement**) for comprehensive routing and error management.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### **Notes & Miscellaneous**  
+- **LocalStorage Management**: Utilized **localStorage** for data persistence, managing keys carefully to avoid unnecessary data retention.  
+- **ProductV2 Section**: Demonstrates **protected routes** using the **Outlet** method. Visit the **Products** section for a clean UI demonstration.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Project Goals**  
+This project was developed as a learning exercise to explore new technologies, React features, and best practices. While the UI may not be fully polished, I focused on implementing advanced features such as **code splitting**, **robust authentication**, and **enhanced user experience**. I'm proud of the functionality and the quality of the code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### **Getting Started**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To run this project locally, follow these steps:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repository:  
+   `git clone https://github.com/yourusername/productivity-app.git`
+   
+2. Install dependencies:  
+   `npm install`
+   
+3. Start the app:  
+   `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
