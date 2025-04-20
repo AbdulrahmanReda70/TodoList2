@@ -2,6 +2,8 @@
 
 I'm thrilled to share my latest project, a **Productivity Application** built with **React**. This app showcases several advanced features designed to improve **user experience (UX)** and performance.
 
+![image](https://github.com/user-attachments/assets/9df61ec0-e36f-4bc5-99e1-cd9044b108f3)
+
 ### 🌐 **Project Link:**  
 [Productivity App Website](https://todo-for-all.netlify.app/)  
 
